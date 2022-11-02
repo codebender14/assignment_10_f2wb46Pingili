@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/Function', appRouter);
+app.use('/function', appRouter);
 app.use('/gridbuild', gridbuildRouter);
 
 // catch 404 and forward to error handler
